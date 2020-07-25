@@ -8,3 +8,5 @@ sudo dpkg -i *.deb && sudo rm -rf /usr/share/doc/libpulse0/changelog.Debian.gz
 2) in run folder orig
 
 sudo dpkg -i *.deb
+
+Llvm modification chroot in 16.04 https://github.com/Griggorii/llvm-10-tools danger not wayland and problem
