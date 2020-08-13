@@ -3,7 +3,9 @@ deb , package , development , rebuild , modification llvm-10 test
 
 1) in run folder pulseaudio_13 terminal command:
 
-sudo rm -rf /usr/share/doc/libpulse0/changelog.Debian.gz && sudo dpkg -i *.deb
+sudo update
+
+sudo rm -rf /usr/share/doc/libpulse0/changelog.Debian.gz && sudo dpkg -i *.deb && apt install -f
 
 2) in run folder orig
 
