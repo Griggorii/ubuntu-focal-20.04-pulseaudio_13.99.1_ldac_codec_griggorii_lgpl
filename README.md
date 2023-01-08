@@ -12,4 +12,6 @@ sudo alsa reload
 
 sudo pulseaudio reload
 
+reboot
+
 <img src="https://github.com/Griggorii/ubuntu-focal-20.04-pulseaudio_13.99.1_ldac_codec_griggorii_lgpl/blob/master/LDAC-UBUNTU-20.0.4.png" alt="LDAC-UBUNTU-20.0.4.png">
