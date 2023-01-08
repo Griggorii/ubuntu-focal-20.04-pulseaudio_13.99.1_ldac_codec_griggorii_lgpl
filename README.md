@@ -6,6 +6,8 @@ $ sudo tar xvpf pulseaudio_13.99.1_ldac_codec_griggorii_lgpl.tar.xz -C/
 
 $ sudo dpkg -i libldacbt+dev_2.0.2.3-1_amd64.deb
 
+$ sudo mv pulseaudio.service '/usr/lib/systemd/user/pulseaudio.service'
+
 $ rm -rf ~/.config/pulse/*
 
 $ sudo alsa reload
