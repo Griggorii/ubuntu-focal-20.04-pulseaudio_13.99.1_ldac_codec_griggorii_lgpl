@@ -1,6 +1,6 @@
 # ubuntu-focal-20.04-pulseaudio_13.99.1_ldac_codec_griggorii_lgpl , ESD
 
-Ubuntu 20.04 pulseaudio beta stable connect reconnect bluetooth headphones  
+Ubuntu 20.04 pulseaudio beta stable connect reconnect bluetooth headphones (напоминаю что проблема кроется в ядре торвальдса и нормально с командой pulseaudio -k && pulseaudio start работают нормально без такого сообщения как E: [pulseaudio] main.c: Too many arguments. Только эти ядра https://github.com/Griggorii/linux-image-5.9.3_amd64.deb_light_zstd_ultra_fast_kernel_wayland_fast/releases/tag/fast 
 
 $ sudo tar xvpf pulseaudio_13.99.1_ldac_codec_griggorii_lgpl.tar.xz -C/
 
