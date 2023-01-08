@@ -1,6 +1,6 @@
 # ubuntu-focal-20.04-pulseaudio_13.99.1_ldac_codec_griggorii_lgpl , ESD
 
-Ubuntu 20.04
+Ubuntu 20.04 pulseaudio beta stable connect reconnect bluetooth headphones  
 
 $ sudo tar xvpf pulseaudio_13.99.1_ldac_codec_griggorii_lgpl.tar.xz -C/
 
