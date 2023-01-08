@@ -1,14 +1,7 @@
-# pulseaudio_13.99.1-1ubuntu3.5-ubuntu-focal-20.04
-deb , package , development , rebuild , modification llvm-10 test
+# ubuntu-focal-20.04-pulseaudio_13.99.1_ldac_codec_griggorii_lgpl
 
-1) in run folder pulseaudio_13 terminal command:
+Ubuntu 20.04
 
-sudo apt update
+sudo tar xvpf pulseaudio_13.99.1_ldac_codec_griggorii_lgpl.tar.xz -C/
 
-sudo rm -rf /usr/share/doc/libpulse0/changelog.Debian.gz && sudo dpkg -i *.deb && apt install -f
-
-2) in run folder orig
-
-sudo dpkg -i *.deb
-
-Pulse audio compilation in 20.10 llvm modification chroot in 16.04 https://github.com/Griggorii/llvm-10-tools danger not wayland and problem
+sudo dpkg -i libldacbt+dev_2.0.2.3-1_amd64.deb
