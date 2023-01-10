@@ -5,23 +5,25 @@ bluetooth headset microphone beta
 
 install version 13.99
 
-sudo tar xvpf pulseaudio_13.99.1_ldac_codec_griggorii_lgpl.tar.xz -C/
+$ sudo tar xvpf pulseaudio_13.99.1_ldac_codec_griggorii_lgpl.tar.xz -C/
 
-sudo rm -rf /lib/pulse-13.99.1 /lib/x86_64-linux-gnu/pulseaudio
+$ sudo rm -rf /lib/pulse-13.99.1 /lib/x86_64-linux-gnu/pulseaudio
 
-sudo tar xvpf pulseaudio_13.13_beta_headset_griggorii_lgpl.tar.xz -C/
+$ sudo tar xvpf pulseaudio_13.13_beta_headset_griggorii_lgpl.tar.xz -C/
 
-rm -rf ~/.config/pulse/*
+$ rm -rf ~/.config/pulse
 
-sudo alsa reload
+$ sudo alsa reload
 
-sudo pulseaudio reload
+$ sudo pulseaudio reload
 
-check dependency not damage run control-center
+# check dependency not damage run control-center
 
-gnome-control-center
+$ gnome-control-center
 
 reboot ! Enjoy sypport my youtube channel and find my coordinate donat support
+
+gnome-alsa-mixer.png problem fix redirect audio output via wired headphones
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
