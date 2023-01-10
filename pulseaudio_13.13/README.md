@@ -11,6 +11,8 @@ $ sudo rm -rf /lib/pulse-13.99.1 /lib/x86_64-linux-gnu/pulseaudio
 
 $ sudo tar xvpf pulseaudio_13.13_beta_headset_griggorii_lgpl.tar.xz -C/
 
+$ pulseaudio -k
+
 $ rm -rf ~/.config/pulse
 
 $ sudo alsa reload
