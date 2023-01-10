@@ -10,7 +10,7 @@ Optional systemd pulseaudio.service
 
 $ sudo mv pulseaudio.service '/usr/lib/systemd/user/pulseaudio.service'
 
-$ rm -rf ~/.config/pulse/*
+$ rm -rf ~/.config/pulse
 
 $ sudo alsa reload
 
