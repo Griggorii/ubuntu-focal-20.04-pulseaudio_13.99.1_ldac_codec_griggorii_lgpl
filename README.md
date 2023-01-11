@@ -16,11 +16,13 @@ $ pulseaudio -k
 
 $ rm -rf ~/.config/pulse
 
-$ sudo alsa reload
+$ sudo alsa force-reload
 
-$ sudo pulseaudio reload
+and fast full command
 
-check
+$ pulseaudio -k && rm -rf ~/.config/pulse && sudo alsa force-reload
+
+# check dependency not damage run control-center
 
 $ gnome-control-center
 
