@@ -27,6 +27,8 @@ $ gnome-control-center
 
 gnome-alsa-mixer.png problem fix redirect audio output via wired headphones
 
+<img src="https://github.com/Griggorii/ubuntu-focal-20.04-pulseaudio_13.99.1_ldac_codec_griggorii_lgpl/blob/master/pulseaudio_13.13/headset_mic_work_Ubuntu-20.04.png" alt="UBUNTU-20.04.png">
+
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 and damage problem ? ok deinstall sudo rm -rf reinstall full pulse alsa find package 
