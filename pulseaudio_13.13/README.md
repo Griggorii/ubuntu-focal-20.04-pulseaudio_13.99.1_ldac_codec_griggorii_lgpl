@@ -7,8 +7,6 @@ lgpl not full no ACC/LDAC | default HFP/A2DP ubuntu 20.04
 
 bluetooth headset microphone beta
 
-install version 13.99
-
 $ sudo rm -rf /lib/pulse-13.99.1 /lib/x86_64-linux-gnu/pulseaudio
 
 $ sudo tar xvpf pulseaudio_13.99.1_headset_mic_work__griggorii_lgpl.tar.xz -C/
