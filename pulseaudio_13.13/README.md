@@ -11,6 +11,8 @@ $ sudo rm -rf /lib/pulse-13.99.1 /lib/x86_64-linux-gnu/pulseaudio
 
 $ sudo tar xvpf pulseaudio_13.99.1_headset_mic_work__griggorii_lgpl.tar.xz -C/
 
+$ sudo cp esdcompat /usr/bin
+
 $ pulseaudio -k
 
 $ rm -rf ~/.config/pulse
