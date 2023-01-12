@@ -8,6 +8,8 @@ $ sudo tar xvpf pulseaudio_13.99.1_esd_ldac_codec_griggorii_lgpl.tar.xz -C/
 
 $ sudo dpkg -i libldacbt+dev_2.0.2.3-1_amd64.deb
 
+$ sudo cp esdcompat /usr/bin
+
 Optional systemd pulseaudio.service
 
 $ sudo mv pulseaudio.service '/usr/lib/systemd/user/pulseaudio.service'
